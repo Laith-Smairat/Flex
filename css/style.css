@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,700");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis';
+}
+
+
+/* Start Navbar */
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+ul a {
+    text-decoration: none;
+    color: #333;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 5%;
+    font-weight: bold;
+    border: 1px solid #333;
+    padding: 6px 20px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* End Navbar */
+
+
+/* Start Main */
+
+.main {
+    background: linear-gradient( rgba(158, 137, 184, 0.3), rgba(158, 137, 184, 0.3)), url(../imgs/city.jpg);
+    height: 100vh;
+    min-height: 50rem;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    color: #fff;
+    font-size: 1.3rem;
+    /* width: 70%; */
+    max-width: 75%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.myP {
+    margin-bottom: 20px;
+}
+
+
+/* End Main */
+
+
+/* Start Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.icons a {
+    font-size: 1.5em;
+    color: #333;
+}
+
+
+/* End Footer */
+
+
+/* Start Team Page */
+
+.team {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.teamP {
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+
+.teamP2 {
+    font-style: italic;
+    max-width: 95%;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+
+.myPhoto {
+    width: 13%;
+    border-radius: 50%;
+}
+
+
+/* End Team Page */
